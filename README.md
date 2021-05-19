@@ -9,7 +9,7 @@ ExifDataViewer is a desktop application made in python that allows you to extrac
 -	Geolocalization
 -	View multiple images
 
-A more detailed description of the application and the structure of the software can be found in [a relative link](report/report.pdf)
+A more detailed description of the application and the structure of the software can be found in [report/report.pdf](report/report.pdf)
 
 ## Requirements
 The application was built with the PyCharm IDE and python 3.8. To run, the following dependencies must be installed:
