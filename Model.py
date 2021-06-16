@@ -55,8 +55,8 @@ class Model:
         if type(path_img) != str:
             path_img = path_img.toolTip()
         exif = self.extractExifData(path_img)
-        img = self.currentState.upload_img(path_img, exif)
-        return img
+        currentImg = self.currentState.upload_img(path_img, exif)
+        return currentImg
 
     def uploadPreviousImg(self):
         current_img = self.currentState.currentImg

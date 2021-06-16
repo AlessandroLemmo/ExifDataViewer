@@ -16,9 +16,9 @@ class ImageView(QLabel):
 
     def resizeImg(self):
         if self.img.width() > self.img.height():
-            img_resized = self.img.scaledToWidth(500)
+            img_resized = self.img.scaledToWidth(512)
         else:
-            img_resized = self.img.scaledToHeight(480)
+            img_resized = self.img.scaledToHeight(512)
         self.setMaximumSize(img_resized.width(), img_resized.height())
         self.setPixmap(img_resized)
         self.adjustSize()
@@ -31,3 +31,9 @@ class ImageView(QLabel):
     def rotateLeft(self):
         self.img = self.img.transformed(QTransform().rotate(-90))
         self.resizeImg()
+
+    #ridimensionamento dell'immagine con la finestra
+    def resizeEvent(self, event):
+        if self.img != None and self.setMax == True:
+            self.setPixmap(self.img.scaled(QSize(self.size().width(), self.size().height()), Qt.KeepAspectRatio))
+        super().resizeEvent(event)

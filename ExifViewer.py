@@ -47,7 +47,7 @@ class ExifViewer(QMainWindow):
 
     #metodi per la visualizzazione nell'interfaccia (View)
 
-    def showPreviewImageIntoList(self, img_path):
+    def showImageIntoList(self, img_path):
         #aggiunta dell'immagine o delle immagini alla lista
         for img in img_path:
             icon = QIcon(QPixmap(img))
@@ -55,7 +55,7 @@ class ExifViewer(QMainWindow):
             item.setToolTip(img)
             self.ui.listWidget.addItem(item)
 
-    def deletePreview(self, sign):
+    def deleteImageIntoListAndPreview(self, sign):
         #rimozione dell'immagine dalla lista
         items = sign[0]
         delCurrentImageUp = sign[1]
@@ -122,7 +122,7 @@ class ExifViewer(QMainWindow):
         if result != None:
             newElems = result[0]
             newImg = result[1]
-            self.showPreviewImageIntoList(newElems)
+            self.showImageIntoList(newElems)
             if newImg != None:
                 self.showImg(newImg)
 
@@ -139,22 +139,22 @@ class ExifViewer(QMainWindow):
     def deleteAllImgs(self):
         allDeleted = model.deleteAllImgs()
         if allDeleted != None:
-            self.deletePreview(allDeleted)
+            self.deleteImageIntoListAndPreview(allDeleted)
 
     def deleteSelectedImgs(self, items):
         result = model.deleteSelectedImgs(items)
         if result == [1, True]:         # caso in cui tutte le immagini sono state cancellate
-            self.deletePreview(result)
+            self.deleteImageIntoListAndPreview(result)
         elif result == [None, None]:    # non è stato selezionato nulla
             pass
         else:
             imgUp = result[0]
             removed = result[1]
             if imgUp == None:           #l'immagine eliminata non è quella corrente
-                self.deletePreview(removed)
+                self.deleteImageIntoListAndPreview(removed)
             else:
                 self.uploadImg(imgUp[0])
-                self.deletePreview(removed)
+                self.deleteImageIntoListAndPreview(removed)
 
     def uploadImg(self, imgPath):
         img = model.uploadImg(imgPath)

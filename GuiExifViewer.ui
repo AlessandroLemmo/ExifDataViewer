@@ -270,6 +270,105 @@ color: rgb(255,255,255)</string>
         </item>
        </layout>
       </item>
+      <item row="2" column="8" colspan="2">
+       <layout class="QHBoxLayout" name="ListImage_Layout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QListWidget" name="listWidget">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="acceptDrops">
+             <bool>true</bool>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(70, 70, 70);</string>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAsNeeded</enum>
+            </property>
+            <property name="sizeAdjustPolicy">
+             <enum>QAbstractScrollArea::AdjustToContents</enum>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="dragEnabled">
+             <bool>true</bool>
+            </property>
+            <property name="dragDropMode">
+             <enum>QAbstractItemView::DragDrop</enum>
+            </property>
+            <property name="defaultDropAction">
+             <enum>Qt::IgnoreAction</enum>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::MultiSelection</enum>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>150</width>
+              <height>150</height>
+             </size>
+            </property>
+            <property name="verticalScrollMode">
+             <enum>QAbstractItemView::ScrollPerItem</enum>
+            </property>
+            <property name="horizontalScrollMode">
+             <enum>QAbstractItemView::ScrollPerItem</enum>
+            </property>
+            <property name="movement">
+             <enum>QListView::Free</enum>
+            </property>
+            <property name="flow">
+             <enum>QListView::LeftToRight</enum>
+            </property>
+            <property name="isWrapping" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="resizeMode">
+             <enum>QListView::Adjust</enum>
+            </property>
+            <property name="layoutMode">
+             <enum>QListView::Batched</enum>
+            </property>
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="gridSize">
+             <size>
+              <width>155</width>
+              <height>95</height>
+             </size>
+            </property>
+            <property name="viewMode">
+             <enum>QListView::IconMode</enum>
+            </property>
+            <property name="modelColumn">
+             <number>0</number>
+            </property>
+            <property name="uniformItemSizes">
+             <bool>false</bool>
+            </property>
+            <property name="currentRow">
+             <number>-1</number>
+            </property>
+            <property name="sortingEnabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
       <item row="1" column="7" colspan="2">
        <layout class="QVBoxLayout" name="ViewerImage_Layout">
         <property name="spacing">
@@ -296,7 +395,7 @@ color: rgb(255,255,255)</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>icons/google-maps.png</normaloff>icons/google-maps.png</iconset>
+              <normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/google-maps.png</normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/google-maps.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -459,7 +558,7 @@ color: rgb(255,255,255)</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>icons/left-arrow.png</normaloff>icons/left-arrow.png</iconset>
+              <normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/left-arrow.png</normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/left-arrow.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -484,7 +583,7 @@ color: rgb(255,255,255)</string>
             </property>
            </widget>
           </item>
-          <item>
+          <item alignment="Qt::AlignHCenter">
            <widget class="QPushButton" name="button_rotateLeft">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -500,7 +599,7 @@ color: rgb(255,255,255)</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>icons/LeftRotate.png</normaloff>icons/LeftRotate.png</iconset>
+              <normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/LeftRotate.png</normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/LeftRotate.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -529,7 +628,7 @@ color: rgb(255,255,255)</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>icons/RightRotate.png</normaloff>icons/RightRotate.png</iconset>
+              <normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/RightRotate.png</normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/RightRotate.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -558,7 +657,7 @@ color: rgb(255,255,255)</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>icons/right-arrow.png</normaloff>icons/right-arrow.png</iconset>
+              <normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/right-arrow.png</normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/right-arrow.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -667,105 +766,6 @@ color: rgb(255,255,255)</string>
            </item>
           </layout>
          </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="2" column="8" colspan="2">
-       <layout class="QHBoxLayout" name="ListImage_Layout">
-        <item>
-         <layout class="QVBoxLayout" name="verticalLayout">
-          <item>
-           <widget class="QListWidget" name="listWidget">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="acceptDrops">
-             <bool>true</bool>
-            </property>
-            <property name="layoutDirection">
-             <enum>Qt::LeftToRight</enum>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: rgb(70, 70, 70);</string>
-            </property>
-            <property name="horizontalScrollBarPolicy">
-             <enum>Qt::ScrollBarAsNeeded</enum>
-            </property>
-            <property name="sizeAdjustPolicy">
-             <enum>QAbstractScrollArea::AdjustToContents</enum>
-            </property>
-            <property name="editTriggers">
-             <set>QAbstractItemView::NoEditTriggers</set>
-            </property>
-            <property name="dragEnabled">
-             <bool>true</bool>
-            </property>
-            <property name="dragDropMode">
-             <enum>QAbstractItemView::DragDrop</enum>
-            </property>
-            <property name="defaultDropAction">
-             <enum>Qt::IgnoreAction</enum>
-            </property>
-            <property name="selectionMode">
-             <enum>QAbstractItemView::MultiSelection</enum>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>150</width>
-              <height>150</height>
-             </size>
-            </property>
-            <property name="verticalScrollMode">
-             <enum>QAbstractItemView::ScrollPerItem</enum>
-            </property>
-            <property name="horizontalScrollMode">
-             <enum>QAbstractItemView::ScrollPerItem</enum>
-            </property>
-            <property name="movement">
-             <enum>QListView::Free</enum>
-            </property>
-            <property name="flow">
-             <enum>QListView::LeftToRight</enum>
-            </property>
-            <property name="isWrapping" stdset="0">
-             <bool>true</bool>
-            </property>
-            <property name="resizeMode">
-             <enum>QListView::Adjust</enum>
-            </property>
-            <property name="layoutMode">
-             <enum>QListView::Batched</enum>
-            </property>
-            <property name="spacing">
-             <number>0</number>
-            </property>
-            <property name="gridSize">
-             <size>
-              <width>155</width>
-              <height>95</height>
-             </size>
-            </property>
-            <property name="viewMode">
-             <enum>QListView::IconMode</enum>
-            </property>
-            <property name="modelColumn">
-             <number>0</number>
-            </property>
-            <property name="uniformItemSizes">
-             <bool>false</bool>
-            </property>
-            <property name="currentRow">
-             <number>-1</number>
-            </property>
-            <property name="sortingEnabled">
-             <bool>false</bool>
-            </property>
-           </widget>
-          </item>
-         </layout>
         </item>
        </layout>
       </item>
