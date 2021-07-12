@@ -395,7 +395,7 @@ color: rgb(255,255,255)</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/google-maps.png</normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/google-maps.png</iconset>
+              <normaloff>icons/google-maps.png</normaloff>icons/google-maps.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -558,7 +558,7 @@ color: rgb(255,255,255)</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/left-arrow.png</normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/left-arrow.png</iconset>
+              <normaloff>icons/left-arrow.png</normaloff>icons/left-arrow.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -599,7 +599,7 @@ color: rgb(255,255,255)</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/LeftRotate.png</normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/LeftRotate.png</iconset>
+              <normaloff>icons/LeftRotate.png</normaloff>icons/LeftRotate.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -628,7 +628,7 @@ color: rgb(255,255,255)</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/RightRotate.png</normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/RightRotate.png</iconset>
+              <normaloff>icons/RightRotate.png</normaloff>icons/RightRotate.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -657,7 +657,7 @@ color: rgb(255,255,255)</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/right-arrow.png</normaloff>../../../../Desktop/ExifViewer-mainScaramuzzoGiovanna/icons/right-arrow.png</iconset>
+              <normaloff>icons/right-arrow.png</normaloff>icons/right-arrow.png</iconset>
             </property>
             <property name="iconSize">
              <size>

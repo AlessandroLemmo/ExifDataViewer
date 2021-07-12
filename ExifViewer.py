@@ -10,6 +10,7 @@ import webbrowser
 class ExifViewer(QMainWindow):
     def __init__(self):
         super().__init__()
+
         self.ui = GuiExifViewer()
         self.ui.setupUi(self)
         self.initializeExifDataTable()
